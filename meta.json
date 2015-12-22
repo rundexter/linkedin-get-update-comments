@@ -4,23 +4,46 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Company ID"
+        },
+        {
+            "id": "updateKey",
+            "title":"Update Key"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "total",
+            "title":"Total"
+        },
+        {
+            "id": "id",
+            "title":"Comment ID"
+        },
+        {
+            "id": "comment",
+            "title":"Comment"
+        },
+        {
+            "id": "timestamp",
+            "title":"Time Stamp"
+        },
+        {
+            "id": "firstName",
+            "title":"First Name"
+        },
+        {
+            "id": "lastName",
+            "title":"Last Name"
+        },
+        {
+            "id": "user_id",
+            "title":"User ID"
         }
-      */
     ],
+    "icon": "linkedin",
     "title": "LinkedIn Get Update Comments" /* Required.A display name for the module */
 }
