@@ -69,6 +69,9 @@ module.exports = {
         if (!inputs.id || !inputs.updateKey)
             this.fail('A [id, updateKey] need for this module.');
 
+        if (!inputs.id || !inputs.updateKey)
+            this.fail('A [id, updateKey] need for this module');
+
         linkedIn.companies.createCall('GET', 'companies/' + inputs.id + '/updates/key=' + inputs.updateKey + '/update-comments', _.omit(inputs, ['id']), function(err, data) {
             if (err)
                 this.fail(err);
