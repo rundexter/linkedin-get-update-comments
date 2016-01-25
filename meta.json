@@ -44,6 +44,12 @@
             "title":"User ID"
         }
     ],
+    "providers": [{
+        "name": "linkedin",
+        "scopes": [
+            "rw_company_admin"
+        ]
+    }],
     "icon": "linkedin",
     "title": "LinkedIn Get Update Comments" /* Required.A display name for the module */
 }
