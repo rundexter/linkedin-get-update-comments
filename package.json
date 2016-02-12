@@ -1,13 +1,17 @@
 {
-  "name": "linkedin-get-update-comments",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "author": "Alexander",
-  "license": "ISC",
-  "private": true,
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "node-linkedin": "^0.5.3"
-  }
+   "name": "linkedin-get-update-comments",
+   "version": "0.0.1",
+   "description": "Get all of the comments for the company update identified by {update-key} for the company identified by the {id} value in the request",
+   "main": "index.js",
+   "author": "Run Dexter, Inc",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "lodash": "^3.10.1",
+      "node-linkedin": "^0.5.3"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/rundexter/linkedin-get-update-comments"
+   }
 }

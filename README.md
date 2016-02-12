@@ -1,4 +1,5 @@
 # LinkedIn Get Update Comments
+Get all of the comments for the company update identified by {update-key} for the company identified by the {id} value in the request.
 
 ### DOCS
 https://developer.linkedin.com/docs/company-pages#get_update_comments
